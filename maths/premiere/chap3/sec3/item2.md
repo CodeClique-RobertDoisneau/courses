@@ -1,3 +1,5 @@
+### ⭐⭐ EPM331 - Exercice 1 : **Calcul de seuil d’une suite définie par récurrence**
+
 *Notions : calcul de seuil, suite*  
 
 On considère la suite $(u_n)$ définie comme suit :  

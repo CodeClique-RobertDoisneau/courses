@@ -1,3 +1,5 @@
+### ⭐⭐ ⭐ EPM333 - Exercice 3 : **Lecture d’une fonction** - d’après le Bac Amérique du nord 2025 sujet 1
+
 *Notions : calcul de seuil, lecture de fonction*  
 
 On considère la suite numérique $(u_n)$ définie par son premier terme $u_0 = 2$ et pour tout entier naturel $n$, par :  

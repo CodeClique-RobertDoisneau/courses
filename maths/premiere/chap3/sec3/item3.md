@@ -1,3 +1,5 @@
+### ⭐⭐ EPM332 - Exercice 2 : **Trop de lapins !!!**
+
 *Notions : calcul de seuil, fonction, suites*  
 
 Dans une réserve naturelle, on introduit une population de lapins. On estime que chaque année :

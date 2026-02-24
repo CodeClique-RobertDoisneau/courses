@@ -39,13 +39,15 @@ Le gestionnaire de la réserve souhaite savoir à partir de combien d’années 
 On considère la suite numérique (u) définie par son premier terme u0\= 2 et pour tout entier naturel n, par : Un+1 \= (2\*Un\+1)/(Un\+2).  
 On admet que la suite (u,) est bien définie. 
 
-1	 def algo(p):   
-2 		u=2   
-3 		n=0   
-4 		while u-1\>p:   
-5 			u=(2\*u+1)/(u+2)   
-6 			n=n+1   
-7	 	return (n,u)
+```python
+def algo(p):   
+   u=2   
+   n=0   
+   while u-1\>p:   
+      u=(2\*u+1)/(u+2)   
+      n=n+1   
+   return (n,u)
+```
 
 1. On considère que la suite est décroissante.   
    Interpréter les valeurs n et u renvoyées par l’appel de la fonction algo(p) dans le contexte de l’exercice.   

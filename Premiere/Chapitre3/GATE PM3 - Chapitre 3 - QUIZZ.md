@@ -27,14 +27,15 @@ Que renvoie l’appel Un(5) ?
 Correction : réponse *d) 243*  
 		
 
-2. ⭐⭐ On considère la fonction suivante :  
-   	def Un(n) : 	
-
-   	un\_1=	1		  
-   	for i in range(n):		  
-   		un \= 3\*un\_1  
-   		un\_1 \= un		  
-   	return un	
+2. ⭐⭐ On considère la fonction suivante : 
+```python
+def Un(n) : 	
+	un_1=	1		  
+	for i in range(n):		  
+		un = 3*un_1  
+		unG_1 = un		  
+	return un	
+```
 
 A calcul de quel terme de la suite (Un) définie par la relation de récurrence Un= 3\*U(n-1) et U1 \= 1 correspond l’appel Un(5) ?
 

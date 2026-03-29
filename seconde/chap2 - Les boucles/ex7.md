@@ -1,0 +1,1 @@
+Bart Simpson doit écrire 10 fois au tableau "Je ne copierai pas le code de mon voisin". Écris un programme qui utilise une boucle for pour afficher cette phrase 10 fois, en numérotant les lignes (1. Je ne copierai pas..., 2\. Je ne copierai pas...).

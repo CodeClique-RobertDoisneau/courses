@@ -121,8 +121,7 @@ exX.md et exX.py Le fichier exX.json doit être rempli comme suit :
 ```json 
 {
   "title": "Calcul d'un seuil de la suite de Fibonacci.",
-  "difficulty": 3,
-  "answer": "27"
+  "difficulty": 3
 }
 ```
 Le fichier exX.md doit contenir le markdown de l'exercice.
@@ -144,12 +143,13 @@ suit :
                 false
             ],
             "options": [
-                "a) ```if x = 10 then:```",
-                "b) ```if x == 10:```",
-                "c) ```if x == 10```",
-                "d) ```if (x = 10) {"
+                "```if x = 10 then:```",
+                "```if x == 10:```",
+                "```if x == 10```",
+                "```if (x = 10) {"
             ],
-            "question": "⭐ 1. Quelle est la syntaxe correcte pour une condition si x vaut 10 ?",
+            "question": "Quelle est la syntaxe correcte pour une condition si x vaut 10 ?",
+            "difficulty": 1,
             "explanation": "réponse b) ```if x == 10:``` \nEn Python, l'égalité se teste avec `==` (double égal) et la ligne doit se terminer par `:` (deux points).",
             "instruction": "Choisissez une seule réponse.",
             "multiple_answers": false
@@ -162,12 +162,13 @@ suit :
                 false
             ],
             "options": [
-                "a) 1 2 3",
-                "b) 0 1 2 3",
-                "c) 0 1 2",
-                "d) 1 2"
+                "1 2 3",
+                "0 1 2 3",
+                "0 1 2",
+                "1 2"
             ],
-            "question": "⭐ 2. Qu'affiche le code suivant ? \n```python \nfor i in range(3): \n\tprint(i) \n```",
+            "question": "Qu'affiche le code suivant ? \n```python \nfor i in range(3): \n\tprint(i) \n```",
+            "difficulty": 1,
             "explanation": "réponse c) 0 1 2 \nLa fonction ```range(3)``` commence à 0 inclus et s'arrête à 3 exclu.",
             "instruction": "Choisissez une seule réponse.",
             "multiple_answers": false

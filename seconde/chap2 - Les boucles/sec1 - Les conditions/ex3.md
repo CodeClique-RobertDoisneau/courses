@@ -1,0 +1,1 @@
+Crée une variable x. Affiche si le nombre est positif, négatif ou nul (indice : utilise elif).

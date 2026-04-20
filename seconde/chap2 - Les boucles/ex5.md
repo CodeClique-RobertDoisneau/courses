@@ -1,0 +1,1 @@
+Crée une variable ```age```. Si l'âge est supérieur ou égal à 18, affiche "Bienvenue \!". Sinon, affiche "Désolé, c'est réservé aux majeurs.". 

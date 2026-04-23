@@ -1,0 +1,44 @@
+{
+  "title": "Quiz — Les conditions et les boucles",
+  "difficulty": 1,
+  "content": [
+    {
+      "question": "Quelle est la syntaxe correcte pour une condition si x vaut 10 ?",
+      "options": [
+        "```if x = 10 then:```",
+        "```if x == 10:```",
+        "```if x == 10```",
+        "```if (x = 10) {```"
+      ],
+      "answers": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "difficulty": 1,
+      "explanation": "En Python, l'égalité se teste avec `==` (double égal) et la ligne doit se terminer par `:` (deux points).",
+      "instruction": "Choisissez une seule réponse.",
+      "multiple_answers": false
+    },
+    {
+      "question": "Qu'affiche le code suivant ?\n```python\nfor i in range(3):\n    print(i)\n```",
+      "options": [
+        "1 2 3",
+        "0 1 2 3",
+        "0 1 2",
+        "1 2"
+      ],
+      "answers": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "difficulty": 1,
+      "explanation": "La fonction `range(3)` commence à 0 inclus et s'arrête à 3 exclu.",
+      "instruction": "Choisissez une seule réponse.",
+      "multiple_answers": false
+    }
+  ]
+}

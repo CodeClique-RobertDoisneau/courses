@@ -93,6 +93,7 @@ plt.show()
 **Exercice 1** : Tracer la droite d'équation y=2x−3 sur l'intervalle [−10,10] avec un pas de 0.1.
 
 **Exercice 2** : Tracer la courbe de la fonction cube f(x)= $x^3$  sur l'intervalle [−3,3] avec un pas de 0.5, puis observer le résultat avec un pas de 0.01.
+:::
 
 ## III/ Formater son graphique
 *<u>Idée générale</u>* : *Rendre compréhensible le graphique pour le lecteur.*
@@ -126,6 +127,7 @@ plt.show()
 **EXERCICES** :
 
 **Exercice 1** : Reprendre le code de l'exercice sur la fonction cube (Cas 2, Ex 2) et lui ajouter : une grille, le titre "Fonction Cube", l'étiquette "Axe des abscisses" en bas et "Axe des ordonnées" à gauche.
+:::
 
 ## RÉSUMÉ GLOBAL 
 :::outline{outlineType="RETENIR"}

@@ -25,7 +25,9 @@ La bibliothèque NumPy peut faire des calculs utiles :
 * **Calcul de moyenne** : la fonction *mean(t)* permet de calculer la moyenne des valeurs du tableau *t*
 * **Maximum** : la fonction *max(t)* permet d’obtenir la plus haute valeur du tableau *t*
 * **Minimum** : la fonction *min(t)* permet d’obtenir la plus haute valeur du tableau *t*
-* **Valeur de π** : la variable *pi* permet d’obtenir la valeur du nombre π. :::outline{outlineType="ATTENTION"}
+* **Valeur de π** : la variable *pi* permet d’obtenir la valeur du nombre π.
+
+:::outline{outlineType="ATTENTION"}
 Il s’agit d’une variable et non d’une fonction, il n’y a donc pas de parenthèses ! Mais il faut quand même préfixer la variable par *numpy* ou le raccourci *np*.
 :::
 

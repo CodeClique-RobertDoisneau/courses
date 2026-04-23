@@ -101,7 +101,7 @@ _Notions : initialisation de variables, puissance_
 ```python
 ```
 3.  Définir une variable z dont la valeur est égale à 7 à la puissance 10.
- ```python
+```python
 ```
 
 ### ⭐⭐ **<u>Exercice 3</u>**:  *Calcul de moyenne*

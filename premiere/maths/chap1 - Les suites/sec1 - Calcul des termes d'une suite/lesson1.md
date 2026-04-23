@@ -75,12 +75,12 @@ Plutôt que de remonter à $u_{n-1}$ , $u_{n-2}$, et ainsi de suite, on va **par
   Pour régler ce problème nous allons introduire une **variable intermédiaire** qui à chaque fin de tour contiendra le terme calculé.
 
 :::outline{outlineType="RETENIR"}
- ### Méthode
- * Initialiser dans une variable le terme initial
- * Initialiser une boucle for (intelligemment)
- * Dans la boucle for, écrire la relation de récurrence pour calculer le terme suivant
- * A la sortie de la boucle for, afficher ou renvoyer le terme voulu
- :::
+### Méthode
+* Initialiser dans une variable le terme initial
+* Initialiser une boucle for (intelligemment)
+* Dans la boucle for, écrire la relation de récurrence pour calculer le terme suivant
+* A la sortie de la boucle for, afficher ou renvoyer le terme voulu
+:::
 
 
 Dans chaque boucle, un terme de la suite est calculé et c’est à partir de ce terme-ci que le prochain terme est calculé.

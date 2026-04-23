@@ -79,6 +79,7 @@ else:
 ```
 
 Dans cet exemple, la condition est `note>=10`. Or *note=8* donc la condition n’est pas vérifiée, ainsi l’instruction de la bloc *if* est ignorée mais pas celle du bloc *else*. Le message *“Il faut encore réviser un peu”* est donc affiché. 
+:::
 
 ## III/ L'instruction "elif" - Sinon Si
 Parfois, il y a plusieurs cas possibles. L’instruction *elif*, qui est une contraction de *else if* permet de tester une nouvelle condition si la première est fausse. Il peut y avoir autant de *elif* que l’on souhaite, il faut cependant toujours commencer par un bloc *if*, puis des bloc *elif* et enfin si besoin un bloc *else*. 
@@ -122,6 +123,8 @@ else:
 ```
 
 Dans cet exemple, *temperature* est égale à 20. La première condition, `temperature > 30 ` n’est pas vérifiée. Ainsi l’instruction de la bloc *if* est ignorée. Puis la condition du *elif* est vérifiée. Alors le message *“Il fait bon”* est affiché et la suite est ignorée jusqu’à sortir des choix, c’est-à-dire que le programme reprend après le bloc du *else* qui est ignoré. 
+:::
+
 ## EXERCICES D'APPLICATION DIRECTE :
 1. Créez une variable *mot_de_passe*. Si le mot de passe est *"PythonIsCool"*, affichez *"Accès autorisé"*, sinon affichez *"Accès refusé"*.
 

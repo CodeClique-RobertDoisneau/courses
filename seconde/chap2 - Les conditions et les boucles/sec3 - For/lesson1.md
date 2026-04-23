@@ -18,6 +18,7 @@ Syntaxe :
 for i in range(n) : 
     # Instructions répétées n fois
 ```
+:::
 
 :::outline{outlineType="ATTENTION"}
 Attention !

@@ -9,7 +9,7 @@ Syntaxe :
 while condition : 
     # Instructions à répéter
 ```
-::: 
+:::
 
 :::outline{outlineType="ATTENTION"}
 Attention !

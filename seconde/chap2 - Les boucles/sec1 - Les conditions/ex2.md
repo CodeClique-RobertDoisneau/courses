@@ -1,1 +1,0 @@
-Crée une variable mot_de_passe. Si le mot de passe est "PythonIsCool", affiche "Accès autorisé", sinon affiche "Accès refusé".

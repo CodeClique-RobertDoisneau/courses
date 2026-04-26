@@ -1,6 +1,6 @@
 # Chapitre 5 - Exercices : Les algorithmes
 
-### ⭐ ESG411 - Exercice 1 : **Qui est là ?**
+### ⭐ ESG411 - Exercice 1 : Qui est là ?
 On dispose de la liste des élèves présents : `presents = ["Tom", "Léa", "Kim", "Paul"]`.
 Crée une fonction `verifier_presence(nom)` qui renvoie "Présent" si le nom est dans la liste, et "Absent" sinon.
 Utilise-la pour vérifier si "Kim" et "Hugo" sont là.
@@ -19,7 +19,7 @@ print("Kim est :", verifier_presence("Kim"))
 print("Hugo est :", verifier_presence("Hugo"))
 ```
 
-### ⭐ ESG412 - Exercice 2 : **Le filtre à admis**
+### ⭐ ESG412 - Exercice 2 : Le filtre à admis
 Voici les notes d'un groupe : `notes = [8, 12, 15, 6, 10, 19, 4]`.
 Crée un programme qui construit une nouvelle liste `admis` contenant uniquement les notes supérieures ou égales à 10.
 Affiche la liste des admis et leur nombre (avec `len()`).
@@ -37,7 +37,7 @@ print("Notes retenues :", admis)
 print("Nombre d'admis :", len(admis))
 ```
 
-### ⭐⭐ ESG421 - Exercice 3 : **Maximum manuel**
+### ⭐⭐ ESG421 - Exercice 3 : Maximum manuel
 Sans utiliser la fonction `max()`, écris un algorithme qui trouve le plus grand nombre dans la liste `[15, 4, 32, 8, 10]`.
 *Indice : Crée une variable `max_actuel` initialisée avec le premier élément, puis parcours la liste pour voir si tu trouves plus grand.*
 
@@ -53,7 +53,7 @@ for nombre in liste:
 print("Le maximum est :", max_actuel)
 ```
 
-### ⭐⭐ ESG422 - Exercice 4 : **Commerçant malin**
+### ⭐⭐ ESG422 - Exercice 4 : Commerçant malin
 Un commerçant a une liste de ventes de la journée : `ventes = [15, 50, 10, 100, 5, 20]`.
 1. Il veut savoir combien de ventes dépassent 20€. (Filtre + Compteur ou len)
 2. Il veut savoir s'il a fait une vente exacte de 100€. (Recherche)
@@ -82,7 +82,7 @@ else:
     print("Non, pas de vente de 100€.")
 ```
 
-### ⭐⭐⭐ ESG401 - Exercice 5 : **Tri de prénoms**
+### ⭐⭐⭐ ESG401 - Exercice 5 : Tri de prénoms
 Voici une liste de prénoms : `["Zoe", "Arthur", "Leo", "Bea"]`.
 Adapte l'algorithme du **tri par sélection** (vu dans le cours) pour trier cette liste par ordre alphabétique.
 *Note : En Python, on peut comparer des chaînes avec < ("Arthur" < "Bea" est True).*

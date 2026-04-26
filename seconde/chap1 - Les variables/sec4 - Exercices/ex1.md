@@ -2,7 +2,7 @@
 
 ## VARIABLES
 
-### ⭐⭐ **<u>Exercice 1</u>** : *Les bases des variables : devenir un aventurier !*
+### ⭐⭐ Exercice 1 : Les bases des variables : devenir un aventurier !
 
 _Notions : initialisation de variables, affichage_
 
@@ -24,7 +24,7 @@ A présent, il faut répartir 10 points dans les aptitudes de ton personnage. Po
 
 ## TYPES
 
-### ⭐ **<u>Exercice 1</u>** :  *Mais … qui es-tu ?*
+### ⭐ Exercice 1 :  Mais … qui es-tu ?
 
 _Notions : initialisation de variables, affichage, chaîne de caractères_
 
@@ -35,7 +35,7 @@ _Notions : initialisation de variables, affichage, chaîne de caractères_
 ```python
 ```
 
-### ⭐ **<u>Exercice 2</u>** :  *L’identification secrète*
+### ⭐ Exercice 2 :  L’identification secrète
 
 _Notions : initialisation de variables, affichage, chaîne de caractères_
 
@@ -52,7 +52,7 @@ _Notions : initialisation de variables, affichage, chaîne de caractères_
 ```python
 ```
 
-### ⭐⭐ **<u>Exercice 3</u>** :  **Quel type ?**
+### ⭐⭐ Exercice 3 :  Quel type ?
 
 _Notions : types de variables_
 
@@ -70,7 +70,7 @@ e = c
 
   
 
-### ⭐ **<u>Exercice 1</u>** :  *Recette d’entier*
+### ⭐ Exercice 1 :  Recette d’entier
 
 _Notions : initialisation de variables, somme, différence, multiplication_
 
@@ -90,7 +90,7 @@ _Notions : initialisation de variables, somme, différence, multiplication_
 
   
 
-### ⭐ **<u>Exercice 2</u>** :  *Trop de puissance !!!*
+### ⭐ Exercice 2 :  Trop de puissance !!!
 
 _Notions : initialisation de variables, puissance_
 
@@ -104,7 +104,7 @@ _Notions : initialisation de variables, puissance_
 ```python
 ```
 
-### ⭐⭐ **<u>Exercice 3</u>**:  *Calcul de moyenne*
+### ⭐⭐ Exercice 3:  Calcul de moyenne
 
 _Notions : initialisation de variables, opérations, affichage_
 
@@ -119,7 +119,7 @@ On commence à écrire un script :
 Compléter le script pour qu’il renvoie la moyenne des variables x, y et z. Le tester.
 
 
-### ⭐⭐ **<u>Exercice 4</u>** : *Valeur inconnue*
+### ⭐⭐ Exercice 4 : Valeur inconnue
 
 _Notions : lecture de programme, initialisation de variables, opérations_
 
@@ -136,7 +136,7 @@ Une fois exécuté, le programme affiche 20. Quelle est la valeur de la variable
 
 ## Mixons tout ça ! 
 
-### ⭐ **<u>Exercice 1</u>**:  *Le marchand du village*
+### ⭐ Exercice 1:  Le marchand du village
 
 _Notions : initialisation de variables, opérations, affichage_
 
@@ -160,7 +160,7 @@ Tu veux acheter une potion chez le marchand du village :
 
   
 
-### ⭐⭐ **<u>Exercice 2</u>** :  *Météorologue du futur* 
+### ⭐⭐ Exercice 2 :  Météorologue du futur
 
 _Notions : initialisation de variables, opérations, affichage_
 
@@ -194,7 +194,7 @@ CELSIUS VERS FAHRENHEIT :
 ```python
 ```
 
-### ⭐⭐ **<u>Exercice 3</u>** :  *Le coffre de Jack*
+### ⭐⭐ Exercice 3 :  Le coffre de Jack
 
 _Notions : initialisation de variables, opérations, affichage_
 

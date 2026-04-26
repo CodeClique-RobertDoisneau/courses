@@ -34,7 +34,7 @@ vide = []
 ```
 :::
 
-### **EXERCICES** : 
+### EXERCICES : 
 **Exercice 1** : 
 
 Définir la liste correspondante
@@ -86,7 +86,7 @@ On a la liste suivante : `chiffres = [15, 7, 19, 3, 4 ]`
 Récupérer dans une variable *nombre* le nombre à la position 2 dans la liste. ATTENTION le premier élément est numéroté à 0.
 :::
 
-### **EXERCICE** : 
+### EXERCICE : 
 Créer la liste contenant les élément 3, 5, 1 et afficher tous ses éléments à l’aide d’une boucle *for*.
 
 ## III/ Modifier une liste

@@ -1,4 +1,4 @@
-### ⭐⭐ ⭐ EPM333 - Exercice 3 : **Lecture d’une fonction** - d’après le Bac Amérique du nord 2025 sujet 1
+### ⭐⭐ ⭐ EPM333 - Exercice 3 : Lecture d’une fonction - d’après le Bac Amérique du nord 2025 sujet 1
 
 *Notions : calcul de seuil, lecture de fonction*  
 

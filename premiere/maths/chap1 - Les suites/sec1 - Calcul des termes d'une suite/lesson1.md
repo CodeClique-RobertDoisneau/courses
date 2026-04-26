@@ -1,7 +1,7 @@
 # Chapitre 3 - Partie 1 : Calcul des termes d'une suite
 
 
-### <u>Définition suite</u>
+### Définition suite
 En première, on voit deux manières d'expliciter une suite : par **formule explicite** ou avec une **relation de récurrence et un terme initial** (ou des termes initiaux en fonction de la relation de récurrence).
 
 
@@ -68,7 +68,7 @@ $$u_2 = 2 \times 12 + 2 = 26$$ Donc $$u_3 = 2 \times 26 + 2 = 54$$
 
 On va maintenant écrire cet algorithme en Python !
 
-### *Idée du programme :*
+### Idée du programme :
 Plutôt que de remonter à $u_{n-1}$ , $u_{n-2}$, et ainsi de suite, on va **partir de $u_0$** et appliquer la relation de récurrence étape par étape pour arriver au final au terme souhaité.
  Pour cela, on va utiliser une **boucle `for`**. Ainsi, nous appliquerons $n$ fois la formule de récurrence pour arriver au $n$-ième terme.
   La difficulté ici est de **conserver le terme** obtenu à la fin de chaque exécution de la boucle. Autrement dit, on veut retenir le résultat de l'application de la formule de récurrence pour le réutiliser après.

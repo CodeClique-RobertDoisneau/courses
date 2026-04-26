@@ -2,7 +2,7 @@
 
 # SG4 Chapitre 4 - Exercices : Listes et Chaînes de caractères
 
-## ⭐ **<u>Exercice 1</u>** : *La liste de courses*
+## ⭐ Exercice 1 : *La liste de courses*
 1. Crée une liste `courses` contenant "Pain", "Lait", "Beurre".
 ```python
 ```
@@ -19,7 +19,7 @@
 ```python
 ```
 
-## ⭐ **<u>Exercice 2</u>** : *Moyenne de classe*
+## ⭐ Exercice 2 : *Moyenne de classe*
 Voici une liste de notes : `notes = [12, 15, 8, 19, 10, 14]`.
 **Calcule** la moyenne de ces notes.
 
@@ -28,14 +28,14 @@ Voici une liste de notes : `notes = [12, 15, 8, 19, 10, 14]`.
 ```python
 ```
 
-## ⭐⭐ **<u>Exercice 3</u>** : *Compteur de voyelles*
+## ⭐⭐ Exercice 3 : *Compteur de voyelles*
 Crée une fonction `compter_voyelles(mot)` qui prend un mot en paramètre et renvoie le nombre de voyelles (a, e, i, o, u, y) qu'il contient.
 
 *Indice : Parcours le mot lettre par lettre avec une boucle for et vérifie si la lettre est dans "aeiouy".*
 ```python
 ```
 
-## ⭐⭐ **<u>Exercice 4</u>** : *Le dictionnaire de notes*
+## ⭐⭐ Exercice 4 : *Le dictionnaire de notes*
 On a un dictionnaire représentant les notes d'un élève par matière :
 ```python
 bulletin = {"Maths": 15, "Français": 12, "Anglais": 14}
@@ -53,7 +53,7 @@ bulletin = {"Maths": 15, "Français": 12, "Anglais": 14}
 ```python
 ```
 
-## ⭐⭐⭐ **<u>Exercice 5</u>** : *Le Palindrome*
+## ⭐⭐⭐ Exercice 5 : *Le Palindrome*
 Un palindrome est un mot qui se lit pareil dans les deux sens. Les mots "KAYAK" et "RADAR" en sont des exemples. 
 Crée une fonction `est_palindrome(mot)` qui renvoie `True` si le mot est un palindrome, et `False` sinon.
 

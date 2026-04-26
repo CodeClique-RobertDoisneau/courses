@@ -1,12 +1,12 @@
 # SG2 Chapitre 2 - Exercices : Les conditions et les boucles 
 
-## ⭐ **<u>Exercice 1</u>** : *Le videur de boîte* 
+## ⭐ Exercice 1 : Le videur de boîte
 
 **Crée** une variable age. Si l'âge est supérieur ou égal à 18, **affiche** "Bienvenue !". Sinon, **affiche** "Désolé, c'est réservé aux majeurs.". 
 ```python
 ```
 
-## ⭐ **<u>Exercice 2</u>**  : *Bulletin scolaire* 
+## ⭐ Exercice 2 : Bulletin scolaire
 
 **Crée** une variable *moyenne*. 
 Si la moyenne est >= 16 : **affiche** "Très bien". 
@@ -17,7 +17,7 @@ Sinon : affiche "Rattrapage".
 ```python
 ```
 
-## ⭐ **<u>Exercice 3</u>**  : *La punition* 
+## ⭐ Exercice 3 : La punition
 
 Bart Simpson doit écrire 10 fois au tableau *"Je ne copierai pas le code de mon voisin"*. **Écris** un programme qui utilise une boucle *for* pour afficher cette phrase 10 fois, en numérotant les lignes 
 
@@ -25,7 +25,7 @@ Bart Simpson doit écrire 10 fois au tableau *"Je ne copierai pas le code de mon
 ```python
 ```
 
-## ⭐⭐ **<u>Exercice 4</u>** : *Le juste prix* 
+## ⭐⭐ Exercice 4 : Le juste prix
 
 1. **Définis** une variable `prix_secret = 42.` 
 ```python
@@ -36,7 +36,7 @@ Si le nombre est trop petit, **affiche** "C'est plus !". Quand il a trouvé, aff
 ```python
 ```
 
-## ⭐⭐⭐ **<u>Exercice 5</u>**  : *Le mot de passe sécurisé* 
+## ⭐⭐⭐ Exercice 5 : Le mot de passe sécurisé
 
 On veut forcer l'utilisateur à saisir un mot de passe qui contient au moins 5 caractères. **Demande** un mot de passe (simulé par variable). Puis, tant que la longueur du mot de passe (utilise len(mot_de_passe)) est inférieure à 5, **affiche** "Trop court !" et **redemande** le mot de passe. 
 Une fois la boucle terminée, **affiche** *"Mot de passe enregistré"*. 

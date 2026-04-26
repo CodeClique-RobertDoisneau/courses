@@ -1,4 +1,4 @@
-### ⭐⭐ EPM332 - Exercice 2 : **Trop de lapins !!!**
+### ⭐⭐ EPM332 - Exercice 2 : Trop de lapins !!!
 
 *Notions : calcul de seuil, fonction, suites*  
 

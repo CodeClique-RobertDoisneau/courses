@@ -2,7 +2,7 @@
 
 # Chapitre 5 - Exercices : Les algorithmes
 
-## ⭐ **<u>Exercice 1</u>** : *Qui est là ?*
+## ⭐ Exercice 1 : *Qui est là ?*
 On dispose de la liste des élèves présents : 
 ```python
 presents = ["Tom", "Léa", "Kim", "Paul"]
@@ -13,7 +13,7 @@ Utilise-la pour vérifier si "Kim" et "Hugo" sont là.
 ```python
 ```
 
-## ⭐ **<u>Exercice 2</u>** : *Le filtre à admis*
+## ⭐ Exercice 2 : *Le filtre à admis*
 Voici les notes d'un groupe : 
 ```python
 notes = [8, 12, 15, 6, 10, 19, 4]
@@ -24,14 +24,14 @@ Affiche la liste des admis et leur nombre.
 ```python
 ```
 
-## ⭐⭐ **<u>Exercice 3</u>**: *Maximum manuel*
+## ⭐⭐ Exercice 3: *Maximum manuel*
 Sans utiliser la fonction `max()`, écris un algorithme qui trouve le plus grand nombre dans la liste `[15, 4, 32, 8, 10]`.
 *Indice : Crée une variable `max_actuel` initialisée avec le premier élément, puis parcours la liste pour voir si tu trouves plus grand.*
 
 ```python
 ```
 
-## ⭐⭐ **<u>Exercice 4</u>**: *Commerçant malin*
+## ⭐⭐ Exercice 4: *Commerçant malin*
 Un commerçant a une liste de ventes de la journée : 
 ```python
 ventes = [15, 50, 10, 100, 5, 20]
@@ -43,7 +43,7 @@ ventes = [15, 50, 10, 100, 5, 20]
 ```python
 ```
 
-## ⭐⭐⭐ **<u>Exercice 5</u>** : *Tri de prénoms*
+## ⭐⭐⭐ Exercice 5 : *Tri de prénoms*
 Voici une liste de prénoms : `["Zoe", "Arthur", "Leo", "Bea"]`.
 Adapte l'algorithme du **tri par sélection** pour trier cette liste par ordre alphabétique.
 

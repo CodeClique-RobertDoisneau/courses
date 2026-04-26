@@ -1,4 +1,4 @@
-### ⭐⭐ EPM331 - Exercice 1 : **Calcul de seuil d’une suite définie par récurrence**
+### ⭐⭐ EPM331 - Exercice 1 Calcul de seuil d’une suite définie par récurrence
 
 *Notions : calcul de seuil, suite*  
 

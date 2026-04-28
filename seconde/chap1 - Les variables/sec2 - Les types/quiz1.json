@@ -1,5 +1,5 @@
 {
-  "title": "Conditions et Boucles",
+  "title": "Les types",
   "difficulty": 1, 
   "content": [
         {
@@ -10,14 +10,14 @@
                 false
             ],
             "options": [
-                "=",
-                ":",
-                "==",
-                "→"
+                "int",
+                "float",
+                "str (string)",
+                "bool"
             ],
-            "question": "Quel symbole sert à donner une valeur à une variable en Python ?",
+            "question": "Quel est le type de la variable x ?",
             "difficulty": 1,
-            "explanation": "réponse a) = \n Le symbole = sert à affecter une valeur à une variable.",
+            "explanation": "réponse a) int \n 25 est un entier donc x contient un entier. Ainsi x est de type int.",
             "instruction": "Choisissez une seule réponse.",
             "multiple_answers": false
         },
@@ -29,67 +29,88 @@
                 false
             ],
             "options": [
-                "2variable",
-                "ma-variable",
-                "ma_variable",
-                "ma variable"
+                "int",
+                "float",
+                "str (string)",
+                "bool"
             ],
-            "question": "Quel variable est correctement nommée ?",
+            "question": "Quel est le type de la variable x ? \n `x = “bonjour”`",
             "difficulty": 1,
-            "explanation": "réponse c) ma_variable \n Les variables en Python doivent commencer par une lettre (de a à z ou de A à Z) ou un underscore ( _ ) donc les variables ne peuvent pas commencer par un chiffre ( a) 2variable est donc invalide). De plus, les variables ne doivent pas contenir de tirets (-) ou d’espace, ainsi ni b) ma-variable, ni d) ma variable ne sont valides.",
+            "explanation": "réponse c) str \n “Bonjour” est entre guillemets donc est une chaîne de caractères. Ainsi x est de type string.",
             "instruction": "Choisissez une seule réponse.",
             "multiple_answers": false
         },
         {
             "answers": [
-                true,
                 false,
+                true,
                 false,
                 false
             ],
             "options": [
-                " `x = 10` ",
-                " `10 = x` ",
-                " `x → 10` ",
-                " `10 ← x` "
+                "int",
+                "float",
+                "str (string)",
+                "bool"
             ],
-            "question": "Laquelle de ces lignes affecte la valeur 10 à la variable x en Python ?",
-            "difficulty": 1,
-            "explanation": "réponse a) x = 10 \n  En Python, l’opérateur = permet d’affecter la valeur de droite à la variable de gauche. Ainsi → et ← ne permettent pas d’affecter de valeur à une variable. De plus, l’affectation se fait de gauche à droite, c’est-à-dire que la variable est à la gauche de l'opérateur = et la valeur est à la droite de l’opérateur = . Enfin, un nombre ne peut pas être une variable.  Ainsi les propositions b) 10 = x , c) x → 10 et d) 10 ← x ne sont pas valides.",
-            "instruction": "Choisissez une seule réponse.",
-            "multiple_answers": false
-        },
-        {
-            "answers": [
-                true,
-                false,
-                false,
-                false
-            ],
-            "options": [
-                "2",
-                "x",
-                "Rien",
-                "ERREUR"
-            ],
-            "question": " Que va afficher ce code ? \n ```python \n x = 2 \n print(x)```",
-            "difficulty": 1,
-            "explanation": "réponse a) 2 \n L’instruction x = 2 permet d’affecter 2 à la variable x. Puis, print(x) affiche la valeur actuelle de x qui est 2. \n ATTENTION print(x) affiche 2 tandis que print(“x”) afficherait la lettre x car “x” est une chaîne de caractères du fait des guillemets.",
-            "instruction": "Choisissez une seule réponse.",
-            "multiple_answers": false
-        },
-        {
-            "answers": [
-                false,
-                true
-            ],
-            "options": [
-                "```python \n x=y \n y=x \n ```",
-                "```python \n temp=x \n x=y \n y=temp \n```"
-            ],
-            "question": "Quelle est la bonne façon d’échanger les valeurs de deux variables ?",
+            "question": "Quel type aura la variable x après l'instruction : \n ` x =   25.0 `",
             "difficulty": 2,
-            "explanation": "réponse b) ```python \n temp=x \n x=y \n y=temp \n``` \n L’option a) ne fonctionne pas car x = y écrase la valeur de x, c’est-à-dire que la valeur qui était affectée à x précédemment n’existe plus. Ainsi à la ligne suivante, l’instruction y = x affecte la valeur de x qui est devenue la valeur de y à la variable y, c’est-à-dire que cette instruction affecte à y la valeur de y ! Donc, on obtient à la fin que x ET y ont la même valeur qui était la valeur de y au départ ! \n Dans le cas b), la valeur de x est sauvegardée dans une variable intermédiaire appelée temp avec l’instruction temp = x. Ainsi lors de l’instruction x = y, la valeur affectée à x devient la valeur affectée à y. (A ce moment, les variables x ET y contiennent la MÊME valeur !) Puis, à la dernière ligne, l’instruction y = temp permet d’affecter à y la valeur de départ de x ! ",
+            "explanation": "réponse b) float \n Un nombre contenant un point décimal, c’est-à-dire une virgule dans la “vraie vie”, est automatiquement interprété comme un float en Python. Ainsi, même s’il n’y a qu’un zéro derrière le point, le type est tout de même un flottant.",
+            "instruction": "Choisissez une seule réponse.",
+            "multiple_answers": false
+        },
+        {
+            "answers": [
+                false,
+                false,
+                true,
+                false
+            ],
+            "options": [
+                "int",
+                "float",
+                "str (string)",
+                "bool"
+            ],
+            "question": " Quel type aura la variable x après l’instruction : \n `x = “25”` ",
+            "difficulty": 2,
+            "explanation": "réponse a) 2 \n Les guillemets, qu’ils soient simples (‘’) ou doubles (“”) créent une chaîne de caractères en Python. Ainsi même si ce qu’il y a entre les guillemets est un nombre, il s’agit d’une chaîne de caractères et donc est de type string. \n Ainsi x = “25” est un string alors que x = 25 est un entier.",
+            "instruction": "Choisissez une seule réponse.",
+            "multiple_answers": false
+        },
+        {
+            "answers": [
+                true,
+                false,
+                false,
+                false
+            ],
+            "options": [
+                "`x=True`",
+                "` x = \"True\" `",
+                "` x = true`",
+                "` x = \"true\" `"
+            ],
+            "question": " ",
+            "difficulty": 2,
+            "explanation": "réponse a) `x=True` \n En Python, les booléens sont True et False. \n Les guillemets, qu’ils soient simples (‘’) ou doubles (“”) créent une chaîne de caractères ainsi b) x = “True” est une chaîne de caractères et non un booléen. De même, d) x = “true” est une chaîne de caractères. ATTENTION c) x = true n’existe pas ! La majuscule est importante ;)",
+            "instruction": "Choisissez une seule réponse.",
+            "multiple_answers": false
+        },
+        {
+            "answers": [
+                false,
+                true,
+                false
+            ],
+            "options": [
+                "`x=\"8\"`",
+                "` x = 8`",
+                "` x = \"huit\"`"
+            ],
+            "question": " ",
+            "difficulty": 2,
+            "explanation": "réponse b) `x=8` \n En Python, les booléens sont True et False. \n L’instruction x = 8 affecte à la variable x l’entier 8. “8” est une chaîne de caractères donc x = “8” est une chaîne de caractères et non un nombre. De même, x = “huit” est une chaîne de caractères.",
             "instruction": "Choisissez une seule réponse.",
             "multiple_answers": false
         }

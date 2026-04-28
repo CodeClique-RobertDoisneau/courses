@@ -16,7 +16,7 @@ En première, on voit deux manières d'expliciter une suite : par **formule expl
 
 
 ## I- Formule explicite
-*<u>Idée générale</u> : Calculer le terme voulu sans calcul intermédiaire*
+*<ins>Idée générale</ins> : Calculer le terme voulu sans calcul intermédiaire*
 
 
 Dans ce cas précis, il suffit d'un **calcul** pour obtenir le résultat. En effet, il faut juste remplacer chaque apparition de $n$ dans l'expression par le numéro du terme que l'on souhaite.
@@ -43,7 +43,7 @@ def Un (n):         #Création de la fonction
 
 
 ## II - Relation de récurrence
-*I<u>dée générale</u> : Calculer tous les termes précédant le terme voulu*
+*<ins>Idée générale</ins> : Calculer tous les termes précédant le terme voulu*
 
 
 L’essentiel de la méthode est de **calculer un à un** les termes qui précèdent celui souhaité.

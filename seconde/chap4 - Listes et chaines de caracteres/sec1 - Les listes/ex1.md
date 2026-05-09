@@ -2,7 +2,7 @@
 
 # SG4 Chapitre 4 - Exercices : Listes et Chaînes de caractères
 
-## ⭐ Exercice 1 : *La liste de courses*
+## ⭐ Exercice 1 : La liste de courses
 1. Crée une liste `courses` contenant "Pain", "Lait", "Beurre".
 ```python
 ```

@@ -1,6 +1,6 @@
 # SG2 Chapitre 2 - Exercices : Les conditions et les boucles 
 
-## ⭐⭐ Exercice 4 : Le juste prix
+## ⭐⭐ Exercice 1 : Le juste prix
 
 1. **Définis** une variable `prix_secret = 42.` 
 ```python

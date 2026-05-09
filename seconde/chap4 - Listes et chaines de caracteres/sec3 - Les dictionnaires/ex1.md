@@ -2,7 +2,7 @@
 
 # SG4 Chapitre 4 - Exercices : Listes et Chaînes de caractères
 
-## ⭐⭐ Exercice 4 : *Le dictionnaire de notes*
+## ⭐⭐ Exercice 1 : Le dictionnaire de notes
 On a un dictionnaire représentant les notes d'un élève par matière :
 ```python
 bulletin = {"Maths": 15, "Français": 12, "Anglais": 14}

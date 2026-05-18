@@ -1,4 +1,9 @@
 # Chapitre 5 - Partie 1 : Algorithme de recherche
+
+## Vidéo : Recherche dichotomique
+
+::video{link="https://www.youtube-nocookie.com/embed/J2yzBJ7B26c?rel=0&modestbranding=1&iv_load_policy=3"}
+
 Imaginez que vous cherchez une carte précise dans un jeu de cartes mélangé. Comment faites-vous ? Vous regardez la première, puis la deuxième, puis la troisième... jusqu'à trouver la bonne. En informatique, c'est **l'algorithme de recherche séquentielle** ou **parcours séquentiel**.
 
 ## I/ Cas 1 : Présence d'un élément

@@ -1,4 +1,9 @@
 # Chapitre 5 - Partie 2 : Le tri par sélection
+
+## Vidéo : Tri à bulle
+
+::video{link="https://www.youtube-nocookie.com/embed/gyu6xar-rqA?rel=0&modestbranding=1&iv_load_policy=3"}
+
 Avoir une liste de notes en vrac comme ```[12, 5, 18, 10]```, c'est bien, mais les avoir dans l'ordre, donc avoir ```[5, 10, 12, 18]```, c'est mieux ! Trier une liste est un problème classique en informatique. Il existe donc des dizaines de façons de le faire comme le tri à bulles, le tri fusion, …etc . Ici, nous allons voir le **tri par sélection**.
 
 ## I/ Le tri par sélection

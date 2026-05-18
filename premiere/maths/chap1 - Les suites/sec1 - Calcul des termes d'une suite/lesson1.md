@@ -1,5 +1,8 @@
 # Chapitre 3 - Partie 1 : Calcul des termes d'une suite
 
+## Vidéo : La suite de Fibonacci
+
+::video{link="https://www.youtube-nocookie.com/embed/lqMf1HtW9Ys?rel=0&modestbranding=1&iv_load_policy=3"}
 
 ### Définition suite
 En première, on voit deux manières d'expliciter une suite : par **formule explicite** ou avec une **relation de récurrence et un terme initial** (ou des termes initiaux en fonction de la relation de récurrence).

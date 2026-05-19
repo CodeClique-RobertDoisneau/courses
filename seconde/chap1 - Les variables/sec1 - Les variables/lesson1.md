@@ -1,5 +1,8 @@
 # Chapitre 1 - Partie 1 : les variables
 
+## Vidéo d'introduction
+
+::video{link="https://www.youtube-nocookie.com/embed/KT6v9_X9w3M?rel=0&modestbranding=1&iv_load_policy=3"}
 
 Python est un langage de programmation, c’est-à-dire un langage qui permet de communiquer avec l’ordinateur pour que l’ordinateur accomplisse des actions. Ainsi, comme toutes les langues et tous les langages, Python est constitué de “phrases”. En programmation, une “phrase” est équivalente à une ligne de code et chaque ligne de code correspond à une action que nous voudrions que l’ordinateur exécute. 
 ## I/ Définition

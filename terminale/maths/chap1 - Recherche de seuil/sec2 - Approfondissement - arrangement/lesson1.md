@@ -2,6 +2,10 @@
 
 # Chapitre 1 - Partie 2 : génération d'arrangement avec la formule de Pascal
 
+## Vidéo : Permutation
+
+::video{link="https://www.youtube-nocookie.com/embed/0CLB0XhaJY0?rel=0&modestbranding=1&iv_load_policy=3"}
+
 ## Introduction
 
 Le nombre d'arrangement peut être noté $\binom{n}{k}$ ou $\mathrm{C}_{n}^{k}$, il correspond au nombre de parties ordonnées de k éléments dans un ensemble de n éléments. Concrêtement cela représente le nombre de manières différentes dont on peut séléctionner $k$ éléments parmis $n$ éléments. Par exemple, dans une assemblée de 30 personnes on doit créer un goupe de 4, dans ce cas le nombre de groupes différents possibles vaut $\binom{30}{4}$

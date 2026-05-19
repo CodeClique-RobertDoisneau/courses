@@ -1,4 +1,9 @@
 # Chapitre 2 - Partie 1 : les conditions
+
+## Vidéo : Logique propositionnelle
+
+::video{link="https://www.youtube-nocookie.com/embed/yMVhaR5e6-g?rel=0&modestbranding=1&iv_load_policy=3"}
+
 Jusqu'à présent, nos programmes étaient linéaires : ils exécutaient les instructions les unes après les autres. Mais dans la vie, on fait des choix et certaines instructions ne doivent être exécutées que dans certaines conditions ! Par exemple, "s'il pleut, je prends un parapluie, sinon je mets des lunettes de soleil". En Python, c'est pareil : on utilise des "**conditions**" pour dire à l'ordinateur d'exécuter certaines lignes de code seulement si une condition est remplie.
 ## I/ L'instruction "if" - Si
 L’instruction *if* permet de tester si une condition est vraie ou non. Dans le cas où la condition est vraie, les instructions se trouvant dans la bloc *if*, c’est-à-dire les instructions qui se trouvent dans le bloc conditionnel, sont exécutées. Dans le cas où la condition est fausse, alors le bloc conditionnel est ignoré et le programme ne l’exécute pas. Le programme passe alors à la suite. 

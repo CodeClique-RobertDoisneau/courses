@@ -39,7 +39,7 @@ Pour calculer $\binom{k}{n}$ sur Python on va donc calculer les coefficients du 
 
 **Exemple:**
 
-```
+```python
 def binome(n, k):
     triangle = [[1]] 
     for i in range(1, n + 1): 
@@ -67,7 +67,7 @@ Le principe est d'utiliser la fonction lorsqu'on la définie.
 
 **Exemple:**
 
-```
+```python
 def binome(k,n):
 	if k>n:
 		binome(k,n)=0

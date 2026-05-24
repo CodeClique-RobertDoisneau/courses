@@ -38,9 +38,11 @@ print(u7)    #Affichage du terme
 ```
 Puis la fonction :
 ```python
-def Un (n):         #Création de la fonction
+def Un(n):         #Création de la fonction
    un = 3*n+6      #Calcul du terme Un
    return un
+   
+print(Un(7))       #On affiche le resultat de la fonction pour n = 7
 ```
 :::
 
@@ -95,9 +97,9 @@ On pose $u_n=5u_{n-1} + 2$ avec $u_0 = 3$ pour tout n entier naturel. Calculer $
 
 ```python
 un= 3                       # Initialisation représentant la variable initiale
-   for i in range(7):      # Initialisation de la boucle for
-       un = 5*un + 2       # Relation de récurrence
-   print(un)               # Affichage du terme
+for i in range(7):      # Initialisation de la boucle for
+   un = 5*un + 2       # Relation de récurrence
+print(un)               # Affichage du terme
 
 
 ```
@@ -111,7 +113,7 @@ def Un(n) :                 # Création de la fonction
        un = 5*un + 2       # Relation de récurrence
    return un               # Renvoi du terme
 
-
+print(Un(7))
 ```
 :::
 

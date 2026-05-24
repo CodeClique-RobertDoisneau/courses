@@ -9,7 +9,9 @@ ventes = [15, 50, 10, 100, 5, 20]
 ```
 1. Il souhaite savoir combien de ventes dépassent 20€. 
 ```python
+
 ```
 2. Il souhaite savoir s'il a fait une vente exacte de 100€.
 ```python
+
 ```

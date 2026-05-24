@@ -101,17 +101,17 @@ Que renvoie TEST ? Et test ?
 
 4. Quels sont les noms de variables valides ?  
 ballon d’or 
-	Ballon d’or 
-	ballon_d’or
-	Ballon_d’or
-	ballon_d_or
-	Ballon_d_or
-	_ballon_d_or
-	ballondor
-	BallondOR
-	ballon_DOR_456
-	8ALLONDOR
-	Ballon08
+Ballon d’or 
+ballon_d’or
+Ballon_d’or
+ballon_d_or
+Ballon_d_or
+_ballon_d_or
+ballondor
+BallondOR
+ballon_DOR_456
+8ALLONDOR
+Ballon08
 
 
 :::outline{outlineType="RETENIR"}

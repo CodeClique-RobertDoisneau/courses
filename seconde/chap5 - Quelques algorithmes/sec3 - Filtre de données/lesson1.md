@@ -47,7 +47,7 @@ def filtrer_petits_prix(liste_produits, budget_max):
     return resultat
 
 # Je cherche un produit à moins de 500€
-choix = filtrer_petits_prix(produits, 500)
+choix = filtrer_petits_prix(liste_produits, 500)
 print(choix)    # Affiche [{'nom': 'Ordi Bureau', 'prix': 450}, {'nom': 'Tablette', 'prix': 300}]
 ```
 ## EXERCICES D'APPLICATION DIRECTE :

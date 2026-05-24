@@ -19,12 +19,12 @@ Enfin, on renvoie la valeur de la variable *trouve*.
 Exemple :
 ```python
 def est_present(liste, valeur_cherchee):
-    found = False				#Etape 1
-    for element in liste:				#Etape 2
-    if element == valeur_cherchee:		#Etape 3
-            found = True				#Etape 4
-            break # On arrête car on a trouvé
-    return found
+	found = False				#Etape 1
+	for element in liste:				#Etape 2
+		if element == valeur_cherchee:		#Etape 3
+			found = True				#Etape 4
+			break # On arrête car on a trouvé
+	return found
 
 mes_nombres = [10, 5, 8, 20]
 print(est_present(mes_nombres, 8)) 		# Affiche True
@@ -40,10 +40,10 @@ Parfois, on ne veut pas juste savoir si l’élément est présent dans la liste
 Exemple :
 ```python
 def trouver_indice(liste, valeur_cherchee):
-    for i in range(len(liste)):			# On parcourt les indices de la listes
-    if liste[i] == valeur_cherchee:		# Si l’élément en position  correspond
-    	return i 				        # On renvoie la position immédiatement
-    return -1 					        # Convention : si on ne trouve pas, on renvoie -1
+	for i in range(len(liste)):			# On parcourt les indices de la listes
+		if liste[i] == valeur_cherchee:	# Si l’élément en position  correspond
+			return i 				    # On renvoie la position immédiatement
+	return -1 					        # Convention : si on ne trouve pas, on renvoie -1
 
 classement = ["Alice", "Bob", "Charlie"]
 print(trouver_indice(classement, "Bob")) 	# Affiche 1
@@ -51,10 +51,23 @@ print(trouver_indice(classement, "Bob")) 	# Affiche 1
 :::
 ## EXERCICES D'APPLICATION DIRECTE :
 
+
 ### Exercice 1 : 
 Crée une fonction *contient_zero(liste)* qui renvoie True si la liste contient le nombre 0 et False sinon.
+```python
+
+```
+
 
 ### Exercice 2
 1. Crée une liste de mois. 
-2. Cherche l'indice du mois "Juin".
 
+
+```python
+
+```
+
+
+2. Cherche l'indice du mois "Juin".
+```python
+```

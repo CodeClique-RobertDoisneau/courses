@@ -22,14 +22,14 @@ On considérera uniquement des suites monotones (qu'elles soient croissantes ou 
 **Exemple:**
 
 On considère: $\forall n \geqslant 0$
-$\begin{cases}
+$$\begin{cases}
 u_0 = 3 \\
 u_{n+1} = 2u_n + 5
-\end{cases}$
+\end{cases}$$
 
 La fonction seuil(m) qui retourne le rang $n$ à partir duquel $u_n>m$ s'écrit:
 
-```
+```python
 def seuil(m):
 	un = 3
 	n = 0
@@ -51,8 +51,8 @@ def seuil() :
 	u = 2
 	n = 0
 	while u < 45 :
-	u = 0, 75∗u + 5
-	n = n + 1
+		u = 0, 75*u + 5
+		n = n + 1
 	return n
 ```
 Cette fonction renvoie (il n’y a qu’une seule bonne réponse ):
@@ -69,10 +69,10 @@ Solution: C.
 **Exercice 2:**
 
 $\begin{cases} T_0 = -19 \\ T_{n+1} = O.94 T_n + 1.5 \end{cases}$
-Ecrire une fonction seuil(x) renvoyant le rang n pour lequel $T_n > x $ ainsi que le plus petit $T_n$ pour lequel on retrouve l'innégalité.
+Ecrire une fonction seuil(x) renvoyant le rang n pour lequel $T_n > x $ ainsi que le plus petit $T_n$ pour lequel on retrouve l’inégalité.
 
 Solution:
-```
+```python
 def seuil(x):
 	n = 0
 	Tn = -19
@@ -84,15 +84,15 @@ def seuil(x):
 
 ## Cas d'une suite décroissante
 
-La méthode ne change pas, hormi la condition du while qui exprime maintenant " tant que $u_n$ > seuil, on continue " et dès que un passe sous le seuil, on a trouvé notre rang n. Par exemple:
+La méthode ne change pas, hormis la condition du while qui exprime maintenant " tant que $u_n$ > seuil, on continue " et dès que un passe sous le seuil, on a trouvé notre rang n. Par exemple:
 $\forall n \geqslant 0$
-$\begin{cases}
+$$\begin{cases}
 u_0 = -3 \\
 u_{n+1} = -2u_n - 5
-\end{cases}$
+\end{cases}$$
 
 
-```
+```python
 def seuil(m):
 	un = -3
 	n = 0
@@ -109,9 +109,9 @@ La condition dans le while est toujours le contraire de ce que l'on cherche, si 
 
 **Exercice 1:**
 
-Soit $ \forall n \geqslant 0 \begin{cases} u_0 = 0.6 \\ u_{n+1} = 0.75 u_{n} (1 - 0.15 u_{n}) \end{cases} $
+Soit $\forall n \geqslant 0 \begin{cases} u_0 = 0.6 \\ u_{n+1} = 0.75 u_{n} (1 - 0.15 u_{n}) \end{cases}$
 
-```
+```python
 def f():
 	u = 0, 6
 	n = 0

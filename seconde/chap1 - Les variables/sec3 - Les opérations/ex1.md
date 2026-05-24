@@ -16,7 +16,7 @@ _Notions : initialisation de variables, somme, différence, multiplication_
 ```python
 ```
 4.  Multiplier a avec 5.    
-    
+
 ```python
 ```
 

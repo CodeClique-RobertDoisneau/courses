@@ -46,6 +46,14 @@ def archimede_pi(n):
         
     return u, v
 ```
+
+Puis on l'execute : 
+
+```python
+print(archimede_pi(5))
+```
+
+
 :::
 
 :::outline{outlineType="EXEMPLE"}

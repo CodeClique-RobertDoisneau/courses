@@ -21,22 +21,22 @@ C’est quoi une indentation ? : Pour délimiter les instructions du bloc if et 
 :::outline{outlineType="EXEMPLE"}
 Exemple : 
 ```python
-jour=“lundi”
-if jour == “lundi” : 
-	jour_demain= “mardi”
-	print(“Nous sommes lundi”)
-print(“Je préfère les samedis”)
+jour="lundi"
+if jour == "lundi" : 
+	jour_demain= "mardi"
+	print("Nous sommes lundi")
+print("Je préfère les samedis")
 ```
-Dans cet exemple, le message *“Nous sommes lundi”* est affiché ainsi que le message *“Je préfère les samedis”*.
+Dans cet exemple, le message *"Nous sommes lundi"* est affiché ainsi que le message *"Je préfère les samedis"*.
 
 ```python
-jour=“mardi”
-if jour == “lundi” : 
-	jour_demain= “mardi”
-	print(“Nous sommes lundi”)
-print(“Je préfère les samedis”)
+jour="mardi"
+if jour == "lundi" : 
+	jour_demain= "mardi"
+	print("Nous sommes lundi")
+print("Je préfère les samedis")
 ```
-A présent, le message *“Nous sommes lundi”* **n’est pas** affiché alors que le message *“Je préfère les samedis”*, lui, **est affiché** !
+A présent, le message *"Nous sommes lundi"* **n’est pas** affiché alors que le message *"Je préfère les samedis"*, lui, **est affiché** !
 :::
 
 :::outline{outlineType="ATTENTION"}
@@ -52,7 +52,7 @@ age = 18
 if age >= 18: 
     print("Vous êtes majeur !")
 ```
-Dans cet exemple, si la variable age a une valeur supérieure ou égale à 18 alors le message *“Vous êtes majeur !”* est affiché, sinon l’instruction est ignorée et rien n’est affiché.
+Dans cet exemple, si la variable age a une valeur supérieure ou égale à 18 alors le message *"Vous êtes majeur !"* est affiché, sinon l’instruction est ignorée et rien n’est affiché.
 :::
 ## II/ L'instruction "else" - Sinon
 L’instruction *else* représente l'**alternative**, c’est le sinon. Si la condition du *if* est fausse, alors on exécute ce qu'il y a dans le *else*. Mais si la condition du *if* est vraie alors le bloc du *if* est exécuté mais pas les instructions du *else*. 
@@ -83,7 +83,7 @@ else:
     print("Il faut encore réviser un peu.")
 ```
 
-Dans cet exemple, la condition est `note>=10`. Or *note=8* donc la condition n’est pas vérifiée, ainsi l’instruction de la bloc *if* est ignorée mais pas celle du bloc *else*. Le message *“Il faut encore réviser un peu”* est donc affiché. 
+Dans cet exemple, la condition est `note>=10`. Or *note=8* donc la condition n’est pas vérifiée, ainsi l’instruction de la bloc *if* est ignorée mais pas celle du bloc *else*. Le message *"Il faut encore réviser un peu"* est donc affiché. 
 :::
 
 ## III/ L'instruction "elif" - Sinon Si
@@ -127,7 +127,7 @@ else:
     print("Il fait froid, mets un manteau !")
 ```
 
-Dans cet exemple, *temperature* est égale à 20. La première condition, `temperature > 30 ` n’est pas vérifiée. Ainsi l’instruction de la bloc *if* est ignorée. Puis la condition du *elif* est vérifiée. Alors le message *“Il fait bon”* est affiché et la suite est ignorée jusqu’à sortir des choix, c’est-à-dire que le programme reprend après le bloc du *else* qui est ignoré. 
+Dans cet exemple, *temperature* est égale à 20. La première condition, `temperature > 30 ` n’est pas vérifiée. Ainsi l’instruction de la bloc *if* est ignorée. Puis la condition du *elif* est vérifiée. Alors le message *"Il fait bon"* est affiché et la suite est ignorée jusqu’à sortir des choix, c’est-à-dire que le programme reprend après le bloc du *else* qui est ignoré. 
 :::
 
 ## EXERCICES D'APPLICATION DIRECTE :

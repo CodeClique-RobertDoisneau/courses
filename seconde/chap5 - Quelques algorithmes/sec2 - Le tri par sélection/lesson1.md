@@ -26,19 +26,19 @@ On a besoin de deux boucles imbriquées.
 Exemple : 
 ```python
 def tri_selection(liste):
-    n = len(liste)			    # Pour chaque position i de la liste
-    for i in range(n):			# On suppose que le minimum est à la position i
-        min_index = i
-        # On cherche s'il y a plus petit dans le reste de la liste
-        for j in range(i+1, n):
-        	if liste[j] < liste[min_index]:
-                min_index = j   # On a trouvé un nouveau minimum 
-        # Si le minimum n'était pas déjà à la bonne place, on échange
-        if min_index != i:
-           			 # Échange des variables 
-            temp = liste[i]
-            liste[i] = liste[min_index]
-           	liste[min_index] = temp
+	n = len(liste)			    # Pour chaque position i de la liste
+	for i in range(n):			# On suppose que le minimum est à la position i
+		min_index = i
+		# On cherche s'il y a plus petit dans le reste de la liste
+		for j in range(i+1, n):
+			if liste[j] < liste[min_index]:
+				min_index = j   # On a trouvé un nouveau minimum 
+		# Si le minimum n'était pas déjà à la bonne place, on échange
+		if min_index != i:
+				# Échange des variables 
+			temp = liste[i]
+			liste[i] = liste[min_index]
+			liste[min_index] = temp
 
 # Test
 mes_notes = [12, 5, 18, 10]
@@ -55,5 +55,15 @@ Dans l'algorithme ci-dessus, on peut remplacer le bloc "```temp```" par : ```lis
 
 ## EXERCICES D'APPLICATION DIRECTE :
 1. Copie la fonction de tri et teste-la avec une liste de 10 nombres aléatoires.
+```python
+
+```
+
+
 2. Modifie la condition if liste[j] < liste[min_index] pour trier dans l'ordre décroissant (du plus grand au plus petit).
+
+```python
+
+```
+
 

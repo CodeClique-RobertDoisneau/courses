@@ -7,4 +7,5 @@ Crée une fonction `euros_vers_dollards(montant)` qui prend un montant en euros 
 Utilise-la pour convertir 20 euros.
 
 ```python
+
 ```

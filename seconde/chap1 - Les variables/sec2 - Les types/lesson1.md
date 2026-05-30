@@ -12,14 +12,14 @@ Sans plus tarder, les types les plus simples, appelés les **types primitifs**, 
 Int est le type des entiers, comme en Maths ! 
 
 :::outline{outlineType="EXEMPLE"}
-Exemple : 5, 67, 9554447
+`5`, `67`, `9554447` sont des entiers
 :::
 
 #### Float - flottants: 
 Float est le type des nombres décimaux
 
 :::outline{outlineType="EXEMPLE"}
-56.0, 67.373894 sont des floats
+`56.0`, `67.373894` sont des floats
 :::
 :::outline{outlineType="ATTENTION"}
 Les virgules dans les nombres sont des points !!!!!!!

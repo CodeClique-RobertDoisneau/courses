@@ -19,20 +19,20 @@ Exemple : 5, 67, 9554447
 Float est le type des nombres décimaux
 
 :::outline{outlineType="EXEMPLE"}
-Exemple : 56.0, 67.373894
+56.0, 67.373894 sont des floats
 :::
 :::outline{outlineType="ATTENTION"}
-Attention ! Les virgules dans les nombres sont des points !!!!!!!
+Les virgules dans les nombres sont des points !!!!!!!
 :::
 
 #### Str (string) - chaîne de caractères : 
 Tout ce qui est mots ou utilisation de caractères sont des chaînes de caractères et doivent être entre guillemets ! 
 :::outline{outlineType="EXEMPLE"}
-Exemple : "bonjour" est une chaîne de caractères mais attention, bonjour ne l'est pas !!!
+"bonjour" est une chaîne de caractères mais attention, bonjour ne l'est pas !!!
 On peut mettre des majuscules, des minuscules, des caractères spéciaux et des espaces mais tout doit être entre guillemets. 
 :::
 :::outline{outlineType="EXEMPLE"}
-Exemple : 'Salut tout le monde' est une chaîne de caractères, de même que " Salut :), j'adore python et toi ?"
+'Salut tout le monde' est une chaîne de caractères, de même que " Salut :), j'adore python et toi ?"
 :::
 
 #### Bool - booléens : 
@@ -44,7 +44,7 @@ Ce type est un peu spécial parce qu'en plus des valeurs True et False, *un 1 es
 #### List - liste : 
 Ce type aura un chapitre entier tellement il est utile et intéressant ! Une liste est comme on peut le comprendre, une liste d'éléments de n'importe quel type. Elle est représentée entre crochet et les éléments sont séparés par des virgules.
 :::outline{outlineType="EXEMPLE"}
-Ex : [3,5], ["Adidas ou Nike ?"], [True, 45, ["perso Adidas"]] sont des listes
+`[3,5]`, `["Adidas ou Nike ?"]`, `[True, 45, ["perso Adidas"]]` sont des listes
 Pour le moment, nous ne vous en dirons pas plus ! 
 :::
 
@@ -52,14 +52,14 @@ Pour le moment, nous ne vous en dirons pas plus !
 Vous verrez également ce type en détail un peu plus tard. Pour résumer rapidement, un dictionnaire permet de ranger des objets (entiers, flottants…) de sorte à ce qu’on puisse les retrouver rapidement. Comme dans un dictionnaire ( le gros livre avec plein de mots et pas le type), lorsqu'on cherche un mot appelé clé, on reçoit une définition qui est la valeur associée.
 Ce type se présente dans des accolades comme suit : {clé1 : valeur1 , clé2 : valeur2}
 :::outline{outlineType="EXEMPLE"}
-Ex : {"écurie 1" : [], "écurie 2":[]}
+`{"écurie 1" : [], "écurie 2":[]}` est un dictionnaire
 :::
 
 Il existe davantage de types comme les tuples ou les tableaux mais nous verrons cela dans la section pour aller plus loin ou dans le futur ...
 
 ### EXERCICES : 
 
-Exercice 1 : Quel type ?
+**Exercice 1** : Quel type ?
 1. 56.68
 2. False
 3. 0

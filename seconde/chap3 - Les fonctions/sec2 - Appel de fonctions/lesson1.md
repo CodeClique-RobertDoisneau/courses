@@ -4,12 +4,12 @@ Si vous écrivez une recette de cuisine sur un bout de papier mais que vous ne l
 Pour faire appel à une fonction, il suffit d’écrire le nom de la fonction suivi de parenthèses.
 
 :::outline{outlineType="RETENIR"}
-Syntaxe :
-nom_de_la_fonction()
+**Syntaxe** :
+*nom_de_la_fonction*()
 :::
 
 :::outline{outlineType="EXEMPLE"}
-Exemple : On reprend notre fonction de la partie 1.
+On reprend notre fonction de la partie 1.
 ```python
 def dire_bonjour():
     print("Bonjour !")
@@ -25,7 +25,7 @@ dire_bonjour()
 Parfois, une fonction a besoin d'informations. Imaginez une machine à café : si vous ne choisissez pas quelle boisson vous voulez, la machine ne peut pas s’actionner et alors elle n’a pas d’utilité. Ainsi, la boisson est le **paramètre** ou l’**argument**. 
 
 :::outline{outlineType="RETENIR"}
-Syntaxe : On met le nom de la variable entre les parenthèses lors de la définition.
+**Syntaxe** : On met le nom de la variable entre les parenthèses lors de la définition.
 ```python
 def fonction(arguments)
 	#action de la fonction
@@ -34,7 +34,6 @@ def fonction(arguments)
 :::
 
 :::outline{outlineType="EXEMPLE"}
-Exemple : 
 ```python
 def souhaiter_anniversaire(prenom):
     print("Joyeux anniversaire " + prenom + " !")
@@ -58,6 +57,9 @@ additionner(5, 10) # Affiche 15
 :::
 ## EXERCICES D'APPLICATION DIRECTE :
 1. Appelle la fonction *se_presenter()* que tu as créée dans la partie 1.
-
+```python
+```
 2. Créer une fonction *saluer(nom)* qui prend un nom en paramètre et affiche *"Salut [nom], ça va ?"*. Teste-la avec *"Thomas"* et *"Julie"*.
+```python
+```
 

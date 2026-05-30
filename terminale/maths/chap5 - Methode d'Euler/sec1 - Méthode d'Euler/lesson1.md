@@ -37,9 +37,9 @@ On cherche à la résoudre sur un intervalle $[u,v]$ (c’est à dire qu’on va
 
 X est la liste des abscisses qui contient les $x_k$,  elle est définie comme $X[k] = x_k = u + kh$ ou encore $X[k+1] = X[k] + h$ avec $X[0] = u$ (On peut remarquer que c’est une suite arithmétique)
 
-| $x_0$  | $x_1$  |  . . .  | $x_n$ | 
-| --------- | -------- | ---- | -------|
-|    $u$    | $u+h$ |  . . .  |$u+nh$|
+| $x_0$ | $x_1$ | . . . | $x_n$  |
+| ----- | ----- | ----- | ------ |
+| $u$   | $u+h$ | . . . | $u+nh$ |
 
 
 : : : outline{outlineType = “ATTENTION”}
@@ -47,7 +47,7 @@ Ne pas confondre n et h!! $n$ est le nombre de points que l’on aura échantill
 : : :
 
 : : : outline{outlineType = "EXEMPLE"}
-```
+```python
 u = 0
 v = 1
 h = 0.01
@@ -55,7 +55,7 @@ n = (v - u) / h
 X = [u]
 for i in range(0, n-1):
 	X[i+1] = X[i] + h
-```	
+```
 : : :
 
 **La liste Y:**
@@ -68,7 +68,7 @@ Une fois que l’on a cette relation, il ne reste plus qu'à itérer sur les $k$
 
 : : : outline{outlineType = "EXEMPLE"}
 
-```
+```python
 Y=[y0]
 for i in range (0,n-1):
 	Y[k+1] = ( -a*Y[k] -b)*h + Y[k]
@@ -148,40 +148,43 @@ Pour le second ordre, l’idée générale de passer par le taux d’accroisseme
 On considère l’équation différentielle : y’’ + ay’ + by =0
 Il est dur remplacer directement y’’ par un taux d'accroissement, on va donc se ramener a un système de 2 équations différentielles d’ordre 1 en posant z = y’:
 
-$ 
+$$
 \begin{cases}
 z = y'\\ z' + az+by=0
 \end{cases}
-$
+$$
 (ici on a plus de dérivée seconde)
 
 Notre but est donc de résoudre ce système, c’est-à-dire de trouver les expressions de z_{k+1} et y_{k+1} en fonction de z_{k}et y_{k}.
 Pour cela on remplace les dérivées par les taux d’accroissement:
 
-$
+$$
 \begin{cases}
 z_k = \frac{y_{k+1} - y_{k}}{h} \\
 \frac{z_{k+1} - z_{k}}{h} + az_{k} + by_{k} =0
 \end{cases}
-$
+$$
 Puis on isole $y_{k+1}$ et $z_{k+1}$:
-$
+$$
 \begin{cases}
-y[k+1] = z[k] * h + y[k]
-z[k+1] = ( -b * y[k] - a * z[k] ) * h + z[k]
+y[k+1] = z[k] \times h + y[k]
+z[k+1] = ( -b \times y[k] - a \times z[k] ) \times h + z[k]
 \end{cases}
+$$
+
+$$
 \begin{cases}
 y_{k+1} = z_k  h + y_k \\
 z_{k+1} = ( -b  y_k - a z_k ) h + z_k
 \end{cases}
-$
+$$
 Grâce aux 2 conditions initiales on peut résoudre l’équation différentielle 
 
 : : : outline{outlineType = "EXEMPLE"}
 
-On veut résoudre $ y'' + y = 0 $ sur $[0,10]$ en échantillonnant $500$ points (c'est-à dire $n=500$) et $y(0) = y'(0) = 0$.
+On veut résoudre $y'' + y = 0$ sur $[0,10]$ en échantillonnant $500$ points (c'est-à dire $n=500$) et $y(0) = y'(0) = 0$.
 
-```
+```python
 import matplotlib.pyplot as plt
 
 n = 500
@@ -209,7 +212,7 @@ plt.show()
 Résoudre $ y'' + y' + y = 0$ sur $[0,50]$ avec $y(0) = 1 $ et $y'(0) = 0$ pour un pas $h = 0.01$
 
 Solution:
-```
+```python
 import matplotlib.pyplot as plt
 h = 0.01
 X = [0]

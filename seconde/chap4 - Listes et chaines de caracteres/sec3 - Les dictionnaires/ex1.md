@@ -7,6 +7,7 @@ On a un dictionnaire représentant les notes d'un élève par matière :
 ```python
 bulletin = {"Maths": 15, "Français": 12, "Anglais": 14}
 ```
+
 1. Affiche la note de Maths.
 ```python
 ```

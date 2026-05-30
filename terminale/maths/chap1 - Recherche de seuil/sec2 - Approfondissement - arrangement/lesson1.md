@@ -2,6 +2,10 @@
 
 # Chapitre 1 - Partie 2 : génération d'arrangement avec la formule de Pascal
 
+## Vidéo : Permutation
+
+::video{link="https://www.youtube-nocookie.com/embed/0CLB0XhaJY0?rel=0&modestbranding=1&iv_load_policy=3"}
+
 ## Introduction
 
 Le nombre d'arrangement peut être noté $\binom{n}{k}$ ou $\mathrm{C}_{n}^{k}$, il correspond au nombre de parties ordonnées de k éléments dans un ensemble de n éléments. Concrêtement cela représente le nombre de manières différentes dont on peut séléctionner $k$ éléments parmis $n$ éléments. Par exemple, dans une assemblée de 30 personnes on doit créer un goupe de 4, dans ce cas le nombre de groupes différents possibles vaut $\binom{30}{4}$
@@ -35,7 +39,7 @@ Pour calculer $\binom{k}{n}$ sur Python on va donc calculer les coefficients du 
 
 **Exemple:**
 
-```
+```python
 def binome(n, k):
     triangle = [[1]] 
     for i in range(1, n + 1): 
@@ -63,7 +67,7 @@ Le principe est d'utiliser la fonction lorsqu'on la définie.
 
 **Exemple:**
 
-```
+```python
 def binome(k,n):
 	if k>n:
 		binome(k,n)=0

@@ -58,6 +58,8 @@ def seuil() :
 		un = 5*n + 1	# Formule explicite  
 		n = n + 1		# Incrémentation du rang  
 	return n
+	
+print(seuil())
 ```
 :::
 
@@ -106,6 +108,8 @@ def seuil() :
 		un = 3*un + 6	# Relation de récurrence  
 		n = n + 1		# Incrémentation du rang  
 	return n 
+	
+print(seuil())
 ``` 
 :::
 

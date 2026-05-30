@@ -9,5 +9,6 @@ Adapte l'algorithme du **tri par sélection** pour trier cette liste par ordre a
 *Note : En Python, on peut comparer des chaînes avec < ("Arthur" < "Bea" est True).*
 
 ```python
+
 ```
 

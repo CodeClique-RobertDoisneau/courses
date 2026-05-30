@@ -47,11 +47,9 @@ On écrit donc
 ```python
 S = 0   #On initialise la somme à 0 car aucun terme n'a encore été sommé
 
-
-for i in range 4 :
-   un = 5*i
-   S = S + un
-
+for i in range(4) :
+	un = 5*i
+	S = S + un
 
 print(S)
 ```
@@ -98,6 +96,7 @@ for i in range (1,4) :  #On va ne faire que 4 tours de boucles car on a déjà p
    un_1 = un  #On retient ce résultat pour le tour suivant
    S = S + un   #On ajoute le nouveau terme à la somme
 
+print(S)
 
 ```
 :::

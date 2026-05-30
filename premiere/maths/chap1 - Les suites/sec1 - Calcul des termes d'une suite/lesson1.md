@@ -1,5 +1,8 @@
 # Chapitre 3 - Partie 1 : Calcul des termes d'une suite
 
+## Vidéo : La suite de Fibonacci
+
+::video{link="https://www.youtube-nocookie.com/embed/lqMf1HtW9Ys?rel=0&modestbranding=1&iv_load_policy=3"}
 
 ### Définition suite
 En première, on voit deux manières d'expliciter une suite : par **formule explicite** ou avec une **relation de récurrence et un terme initial** (ou des termes initiaux en fonction de la relation de récurrence).
@@ -35,9 +38,11 @@ print(u7)    #Affichage du terme
 ```
 Puis la fonction :
 ```python
-def Un (n):         #Création de la fonction
+def Un(n):         #Création de la fonction
    un = 3*n+6      #Calcul du terme Un
    return un
+   
+print(Un(7))       #On affiche le resultat de la fonction pour n = 7
 ```
 :::
 
@@ -92,9 +97,9 @@ On pose $u_n=5u_{n-1} + 2$ avec $u_0 = 3$ pour tout n entier naturel. Calculer $
 
 ```python
 un= 3                       # Initialisation représentant la variable initiale
-   for i in range(7):      # Initialisation de la boucle for
-       un = 5*un + 2       # Relation de récurrence
-   print(un)               # Affichage du terme
+for i in range(7):      # Initialisation de la boucle for
+   un = 5*un + 2       # Relation de récurrence
+print(un)               # Affichage du terme
 
 
 ```
@@ -108,7 +113,7 @@ def Un(n) :                 # Création de la fonction
        un = 5*un + 2       # Relation de récurrence
    return un               # Renvoi du terme
 
-
+print(Un(7))
 ```
 :::
 

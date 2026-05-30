@@ -7,4 +7,5 @@ Sans utiliser la fonction `max()`, écris un algorithme qui trouve le plus grand
 *Indice : Crée une variable `max_actuel` initialisée avec le premier élément, puis parcours la liste pour voir si tu trouves plus grand.*
 
 ```python
+
 ```

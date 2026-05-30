@@ -4,7 +4,7 @@ Imaginez que vous deviez copier 100 fois "Je ne dois pas bavarder en classe". C'
 La boucle *while* permet de répéter un bloc d'instructions tant qu'une condition reste vraie. On ne sait pas forcément à l'avance combien de fois on va tourner dans la boucle mais tant que la condition est vérifiée les instructions se trouvant dans la boucle sont exécutées. 
 
 :::outline{outlineType="RETENIR"}
-Syntaxe :
+**Syntaxe** :
 ```python
 while condition : 
     # Instructions à répéter
@@ -12,13 +12,12 @@ while condition :
 :::
 
 :::outline{outlineType="ATTENTION"}
-Attention !
 * Ne pas oublier les deux points ":" après la condition du while !
 * L'indentation (le décalage vers la droite) est aussi obligatoire ! C'est elle qui dit à Python : "cette ligne fait partie de la boucle".
 :::
 ## II/ Exemple concret : Création d’un compte à rebours.
 :::outline{outlineType="RETENIR"}
-Syntaxe
+**Syntaxe** : 
 ```python
 compteur = 5 
 while compteur > 0: 
@@ -34,11 +33,10 @@ Que se passe-t-il si on oublie la ligne `compteur = compteur - 1` dans l'exemple
 Le compteur reste à 5. Alors la condition `5 > 0` est toujours vraie et l'ordinateur va afficher 5 jusqu'à l’infini. Il faut alors arrêter de force l’exécution du programme ! Il faut donc éviter à tout prix de faire une boucle infinie !
 
 :::outline{outlineType="ATTENTION"}
-Règle d'or : Assurez-vous toujours que la condition finisse par devenir fausse ! 
+**Règle d'or** : Assurez-vous toujours que la condition finisse par devenir fausse ! 
 :::
 
 :::outline{outlineType="ERREUR"}
-Erreurs fréquentes :
 * Oublier les indentations ! 
 :::
 
